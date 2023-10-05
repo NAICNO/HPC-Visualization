@@ -15,15 +15,8 @@ Who is the course for?
 ----------------------
 
 
-
-
-
 About the course
 ----------------
-
-
-
-
 
 
 See also
