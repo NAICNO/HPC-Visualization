@@ -30,7 +30,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          sphinx-build -b html documents/ _build/html
+          make html 
           pwd
           ls -lh          
 
