@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Introduction-to-data-visualization'
+project = 'HPC Visualization'
 copyright = '2023, NAIC'
 author = 'NAIC'
 release = '0.1'
