@@ -7,13 +7,41 @@ This course aims to provide a concise introduction to data visualization by leve
    TODO: Add a featured image here.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents
+   :maxdepth: 1
 
    introduction
    setup
-   data
-   visualization-materials
+   tools
+
+.. toctree::
+   :caption: Data Wrangling for Visualization
+   :hidden:
+
+   moving-data
+   storage
+   compression
+   wrangling
+
+.. toctree::
+   :caption: Visualization Projects: Paraview
+   :hidden:
+
+   paraview-project1.rst
+   paraview-project2.rst
+   paraview-project3.rst
+
+.. toctree::
+   :caption: Visualization Projects: Blender
+   :hidden:
+
+   blender-project1.rst
+   blender-project2.rst
+
+.. toctree::
+   :caption: Visualization Projects: VisIt
+   :hidden:
+
+   visit-project1.rst
 
 See also
 --------

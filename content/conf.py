@@ -8,7 +8,7 @@
 
 project = 'HPC Visualization'
 copyright = '2023, NAIC'
-author = 'NAIC'
+author = 'Sherin Sugathan'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -24,8 +24,10 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
 html_static_path = ['_static']
+html_css_files = ['custom.css']
+html_title = 'NAIC | HPC Visualization'
 
 # Other extensions
 myst_enable_extensions = [
