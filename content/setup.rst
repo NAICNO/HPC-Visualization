@@ -3,7 +3,8 @@ NAIC Visualization Setup
 
 Workflow
 ------------
-.. image:: images/NAIC-Paraview-Workflow.svg
+.. raw:: html
+    :file: images/NAIC-Paraview-Workflow.svg
 
 .. note::
    TODO: Add textual details below
