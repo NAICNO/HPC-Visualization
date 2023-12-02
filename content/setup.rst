@@ -7,4 +7,4 @@ Workflow
     :file: images/NAIC-Paraview-Workflow.svg
 
 .. note::
-   TODO: Add textual details below
+   TODO: Add textual documentation.
