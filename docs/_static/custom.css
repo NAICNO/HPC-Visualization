@@ -1,0 +1,71 @@
+/* Custom header sizes for Furo theme */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+h1  {
+    font-size: 20px;
+    font-weight:200;
+    font-family: 'Rubik', sans-serif;
+    color:#3b90ca;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight:200;
+    color:#3b90ca;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight:200;
+    color:#3b90ca;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    --sidebar-item-spacing-vertical: 0.3rem;
+    --sidebar-item-spacing-horizontal: .1rem;
+    --color-sidebar-link-text--top-level:#646776;
+    --color-sidebar-brand-text:
+    --sidebar-caption-font-size:100%;
+    color:#404040;
+}
+
+.sidebar-brand-text{
+color:#c69c65;
+}
+
+p{
+color:#404040;
+font-size:90%;
+}
+
+.sidebar-tree .caption{
+font-weight: normal;
+color:#637ca2;
+background-color: #EAF7FF; /* Yellow color */
+padding: 10px 10px; /* Some padding for better appearance */
+text-transform: none;
+border-radius: 5px 0px 0px 5px;
+}
+
+.sidebar-drawer{
+background-color:#f9fdff;
+box-shadow: 10px 0 15px -15px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-tree .reference:hover{
+transform: translateX(5px);
+}
+
+.sidebar-tree .reference{
+transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.sidebar-tree .current-page > .reference{
+color:#3977b9;
+font-weight:normal;
+}
+
+.theme-toggle svg {
+    display: none !important;
+}
