@@ -1,0 +1,10 @@
+Create a pipeline to create streamlines from any data source and measure the performance difference between serial and MPI processes.
+
+-----------
+Hint:
+-----------
+You may use the following source and filters in the same order and configure.
+
+1. Wavelet
+2. RandomVectors
+3. StreamTracer

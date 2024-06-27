@@ -1,0 +1,70 @@
+<ServerManagerConfiguration>
+  <ProxyGroup name="sources">
+<SourceProxy class="vtkConeSource"
+                 label="MyCone"
+                 name="MyConeSource">
+      <Documentation long_help="Create a 3D cone of a given radius and height."
+                     short_help="3D cone of a given radius and height">The Cone
+                     source can be used to add a polygonal cone to the 3D
+                     scene. The output of the Cone source is polygonal
+                     data.</Documentation>
+      <IntVectorProperty animateable="1"
+                         command="SetResolution"
+                         default_values="65"
+                         name="Resolution"
+                         number_of_elements="1"
+                         panel_visibility="default">
+        <IntRangeDomain max="512"
+                        min="0"
+                        name="range" />
+        <Documentation>This property indicates the number of divisions around
+        the cone. The higher this number, the closer the polygonal
+        approximation will come to representing a cone, and the more polygons
+        it will contain.</Documentation>
+      </IntVectorProperty>
+      <DoubleVectorProperty animateable="1"
+                            command="SetRadius"
+                            default_values="0.5"
+                            name="Radius"
+                            number_of_elements="1"
+                            panel_visibility="default">
+        <DoubleRangeDomain min="0"
+                           name="range" />
+        <Documentation>This property specifies the radius of the base of the
+        cone.</Documentation>
+      </DoubleVectorProperty>
+      <DoubleVectorProperty animateable="1"
+                            command="SetCenter"
+                            default_values="0.0 0.0 0.0"
+                            name="Center"
+                            number_of_elements="3"
+                            panel_visibility="default">
+        <DoubleRangeDomain name="range" />
+        <Documentation>This property specifies the center of the
+        cone.</Documentation>
+      </DoubleVectorProperty>
+      <DoubleVectorProperty animateable="1"
+                            command="SetDirection"
+                            default_values="0.0 1.0 0.0"
+                            name="Direction"
+                            number_of_elements="3"
+                            panel_visibility="default">
+        <DoubleRangeDomain name="range" />
+        <Documentation>Set the orientation vector of the cone. The vector does
+        not have to be normalized. The cone will point in the direction
+        specified.</Documentation>
+      </DoubleVectorProperty>
+      <IntVectorProperty animateable="1"
+                         command="SetCapping"
+                         default_values="1"
+                         name="Capping"
+                         number_of_elements="1">
+        <BooleanDomain name="bool" />
+        <Documentation>If this property is set to 1, the base of the cone will
+        be capped with a filled polygon. Otherwise, the base of the cone will
+        be open.</Documentation>
+      </IntVectorProperty>
+      <!-- End Cone -->
+    </SourceProxy>
+	</ProxyGroup>
+</ServerManagerConfiguration>

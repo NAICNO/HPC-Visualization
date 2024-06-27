@@ -1,0 +1,3 @@
+The following command is just an example. Modify the paths according to your local machine.
+
+C:\pv\ParaView-5.12.1-MPI-Windows-Python3.10-msvc2017-AMD64\bin\pvpython LocalRendering.py --venv C:\Users\Sherin\AppData\Local\Programs\Python\Python310\myenv310
